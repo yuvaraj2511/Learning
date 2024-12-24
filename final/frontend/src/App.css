@@ -1,0 +1,144 @@
+body {
+  background: transparent;
+  padding: 0 24px;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.App {
+  color: rgb(0, 0, 0);
+}
+
+table {
+  border: 2px solid rgb(0, 0, 0);
+  width: 800px;
+  height: auto;
+}
+
+th {
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+td {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+button {
+  margin-left: 10px;
+  background-color: transparent;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.cashin-button {
+  border: 2px solid #28a745;
+  padding: 12px 24px;
+  font-size: 18px;
+  margin-left: 65%;
+}
+
+.cashout-button {
+  border: 2px solid #dc3545;
+  padding: 12px 24px;
+  font-size: 18px;
+}
+
+.button-class {
+  margin-bottom: 10px;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 9999;
+}
+
+.popup-content {
+  background-color: #fff;
+  border: 2px solid #000;
+  color: #000000;
+  padding: 30px;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 600px;
+  max-height: 100vh;
+  margin-right: 10em;
+}
+
+.popup h2 {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.cancel-button,
+.submit-button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  border: 2px solid #dc3545;
+  color: #000000;
+  margin-right: 10px;
+}
+
+.submit-button {
+  border: 2px solid #28a745;
+  color: #000000;
+}
+
+.delete-button {
+  border: 2px solid #dc3545;
+  color: #000000;
+}
+
+.edit-button {
+  border: 2px solid #28a745;
+  color: #000000;
+}
+
